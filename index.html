@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website cá nhân - [Le Tri Dung]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#">MyProfile</a>
+      <a href="#about">Giới thiệu</a>
+      <a href="#skills">Kỹ năng</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">WEBSITE CÁ NHÂN • CI/CD DEMO</p>
+      <h1>Xin chào, mình là <span>[Le Tri Dung]</span></h1>
+      <p class="subtitle">Sinh viên ngành Công nghệ thông tin</p>
+      <a class="button" href="#about">Tìm hiểu thêm</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Giới thiệu bản thân</h2>
+      <p>Mình là <strong>[Le Tri Dung]</strong>, MSSV <strong>[1822041040]</strong>. Website này được xây dựng để thực hành quy trình CI/CD bằng GitHub Actions và triển khai tự động với GitHub Pages.</p>
+    </section>
+
+    <section id="skills" class="section section-tint">
+      <p class="eyebrow">MY SKILLS</p>
+      <h2>Kỹ năng đang học</h2>
+      <div class="cards">
+        <article class="card"><h3>HTML</h3><p>Xây dựng cấu trúc nội dung website.</p></article>
+        <article class="card"><h3>CSS</h3><p>Thiết kế giao diện rõ ràng, thân thiện.</p></article>
+        <article class="card"><h3>GitHub Actions</h3><p>Tự động kiểm tra và triển khai website.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Thông tin</h2>
+      <p>Họ tên: [Le Tri Dung]</p>
+      <p>MSSV: [1822041040]</p>
+      <p>Lớp: [22DTH5]</p>
+      <button id="helloButton" class="button" type="button">Nhấn vào đây</button>
+      <p id="message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> [Le Tri Dung] · Website thực hành GitHub Actions</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
